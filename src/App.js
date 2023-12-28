@@ -26,7 +26,8 @@ function App() {
       </div>
           <div style={{margin:"5px"}} >{loading}</div>
           <button style={{margin: "10px", borderRadius:"10px", padding:"5px 15px",}}
-          onClick={() => setfilled(0)}> Refresh</button>
+          onClick={() => {setfilled(0)
+           setrunning("loading...")}}> Refresh</button>
     </div>
       
   );
